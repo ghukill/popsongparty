@@ -1,4 +1,8 @@
-popsongparty
-============
+new_project_template
+==============
 
-Quiz: Pop Song or Party?
+Vanilla template with some of my favs:
+- bootstrap
+- jquery cookie
+- jquery mustache
+- what else?
