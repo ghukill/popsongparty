@@ -1,13 +1,27 @@
+@font-face {
+    font-family: 'Museo700Regular';
+    src: url('../inc/fonts/Museo700-Regular-webfont.eot');
+    src: url('../inc/fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../inc/fonts/Museo700-Regular-webfont.woff') format('woff'),
+         url('../inc/fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('../inc/fonts/Museo700-Regular-webfont.svg#Museo700Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  font-family: 'Museo700Regular';
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -20,13 +34,19 @@ body {
 
 /* Custom page CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 
 body > .container {
   padding: 60px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Museo700Regular';
+}
+p, div {
+    font-family: 'Museo700Regular';
 }
 
 .footer > .container {
@@ -38,9 +58,43 @@ code {
   font-size: 80%;
 }
 
-
-/* Quiz */
 #quiz_logo {
-  float:center;
-  margin:auto;
+
+}
+
+#splash_text {
+  padding-top:90px;  
+}
+
+.ans_text {  
+  padding-top:90px;    
+}
+
+.text p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+
+#the_phrase {
+  text-align:center;  
+}
+
+.selection {
+  border: solid 5px transparent;
+}
+
+.selection:hover {
+  border-color:gray;
+  border-style: dotted;
+  border-width: 5px;
+  cursor:pointer;
+}
+
+#quiz_canvas {
+
+}
+
+#par_ans, #pop_ans {
+  display: none;
+  max-height:550px;
+  
 }
