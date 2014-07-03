@@ -14,6 +14,7 @@
             var score = getScore();
             $("#score").html(score);
           </script>
+          <h2><a href="./ideas.php">More Ideas...</a></h2>
         </div>
       </div>      
       

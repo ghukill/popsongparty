@@ -54,7 +54,7 @@
 		      <div class="row">
 		        <div class="col-md-6">
 		          <a href="./quiz.php?q=<?php echo $q_num + 1; ?>">
-		          	<img src="img/quiz/q<?php echo $q_num; ?>par.jpg" class="img-rounded img-responsive">          
+		          	<img src="img/quiz/ans/q<?php echo $q_num; ?>par.jpg" class="img-rounded img-responsive">          
 	          	  </a>
 		        </div>
 		        <div class="col-md-6 ans_text text">		        
@@ -80,7 +80,7 @@
 		        </div>        
 		        <div class="col-md-6">
 		        	<a href="./quiz.php?q=<?php echo $q_num + 1; ?>">
-		          		<img src="img/quiz/q<?php echo $q_num; ?>pop.jpg" class="img-rounded img-responsive">          
+		          		<img src="img/quiz/ans/q<?php echo $q_num; ?>pop.jpg" class="img-rounded img-responsive">          
 	          		</a>
 		        </div>
 		      </div>      		       

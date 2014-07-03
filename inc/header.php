@@ -59,8 +59,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
-          <!-- <a class="navbar-brand" href="#">Party or Pop Song?</a> -->
+          </button>          
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">            
@@ -78,7 +77,8 @@
             	?>
               </ul>
             </li>
+            <li><a href="./ideas.php">More Ideas...</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div><!--/.nav-collapse -->        
       </div>
     </div>
