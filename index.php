@@ -8,8 +8,9 @@
           <img src="img/quiz/quiz_logo.jpg" alt="quiz_logo" class="img-rounded img-responsive" >
         </div>
         <div id="splash_text" class="text col-md-6">
-          <p>Welcome to the quiz.  For each question, you will be presented with a name, and the option of either "political party" or "pop song".  Choose wisely and have fun.</p>
-          <p>(more text...) Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+          <p>Sometimes it's hard these days to tell the difference between things that once seemed quite distinct.  The designers of Ikea or Death (<a href="http://ikeaordeath.com">http://ikeaordeath.com</a>) recently identified an uncanny similarity between the names of flatpack furniture products and death metal bands.  Now musical names have begun to creep into politics. Or is it the other way around?</p>
+          <p>In May of 2014, Europeans voted both for their favorite political parties and for their favorite pop songs, and the similarities are just too obvious to ignore.  It is unlikely that anybody in 1979 would have confused "the Christian Democratic Party of Italy" (the top European Parliament vote-getter) with "Hallelujah" (the Eurovision-winning song).  But this year we had "We Can" and "Change".  One of them is a song.  One of them is a party.  But which is which? And this is no isolated incident.  Party names sound more like songs and songs sound more like parties.</p>
+          <p>If you don't believe it, try the following quiz: <a href="./quiz.php?q=1">Party or Popsong?</a></p>
         </div>
       </div>      
       

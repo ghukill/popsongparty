@@ -63,7 +63,7 @@ code {
 }
 
 #splash_text {
-  padding-top:90px;  
+  padding-top:70px;  
 }
 
 .ans_text {  
@@ -97,4 +97,9 @@ code {
   display: none;
   max-height:550px;
   
+}
+
+.embedded_image {
+  margin:10px;
+
 }

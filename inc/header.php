@@ -77,7 +77,7 @@
             	?>
               </ul>
             </li>
-            <li><a href="./ideas.php">More Ideas...</a></li>
+            <li><a href="./about.php">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->        
       </div>
