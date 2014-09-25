@@ -9,6 +9,8 @@
     font-style: normal;
 }
 
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -19,7 +21,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: 'Museo700Regular';
+  font-family: 'Museo700Regular';  
 }
 
 .footer {
@@ -58,28 +60,23 @@ code {
   font-size: 80%;
 }
 
-#quiz_logo {
-
-}
-
-#splash_text {
-  padding-top:70px;  
-}
-
-.ans_text {  
-  padding-top:90px;    
+#quiz_logo img{
+  max-height:550px;
 }
 
 .text p {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+  font-size:1.3em;
 }
 
-#the_phrase {
-  text-align:center;  
+#the_phrase{
+  margin-bottom:20px;
 }
 
 .selection {
   border: solid 5px transparent;
+  border-radius:6px;
+  padding:2px;
 }
 
 .selection:hover {
@@ -103,3 +100,79 @@ code {
   margin:10px;
 
 }
+
+#start {
+  margin-top:30px;
+  padding-bottom:40px;  
+}
+
+.go_button {  
+  border-radius:6px;
+  font-size:1.75em;
+  padding:10px;
+}
+
+ .quiz_vert, .instructions_vert {
+  color:#6c6c6c;
+ }
+
+/* media queries */
+@media (min-width: 992px) { 
+  .instructions_vert {    
+    margin-top:210px;
+  }
+  .quiz_vert {    
+    margin-top:115px;
+  }
+
+  .instructions_sections img{
+    max-width:270px;
+  }
+
+  .left img{
+    float:right;
+  }
+
+  .right img{
+    float:left;
+  }
+
+  .left_finis img{
+    float:right;
+    max-width:300px;
+  }
+
+  #score_box {
+    margin-top:45px;    
+    /*text-align:left;*/
+  }
+
+
+ }
+
+ @media (max-width: 992px) { 
+  .ans_text {    
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

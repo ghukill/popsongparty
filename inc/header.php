@@ -13,7 +13,8 @@
 		"Dawn",
 		"Change",
 		"We Can",
-		"I Believe"
+		"I Believe",
+		"Bright Future"
 	);
 
 	// get q number
@@ -64,14 +65,14 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">            
             <li><a href="./">Home</a></li>
-            <li><a href="./quiz.php?q=1">Quiz</a></li>
+            <li><a href="./instructions.php">Quiz</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jump to Question<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
               	<?php
               		$count = 1;
               		foreach ($q_phrases as $q){
-              			echo "<li><a href='./quiz.php?q=$count'>\"$q\"</a></li>";
+              			echo "<li><a href='./quiz.php?q=$count'>$q</a></li>";
               			$count = $count + 1;
               		}                	
             	?>

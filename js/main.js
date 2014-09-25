@@ -12,7 +12,8 @@ var answers = {
 	q10:"par",
 	q11:"pop",
 	q12:"par",
-	q13:"both"	
+	q13:"both",
+	q14:"par"
 }
 
 // prime score
@@ -26,18 +27,13 @@ function showAns(choice,qnum){
 
 	// show answer
 	$("#quiz_canvas").hide();
-	$("#"+choice+"_ans").fadeIn();
+	$("#"+choice+"_ans").fadeIn(250);
 
 	// check and store score
-	if (answers[qnum] == choice || answers[qnum] == "both"){
-		console.log("winner winner, chicken dinner!");
+	if (answers[qnum] == choice || answers[qnum] == "both"){		
 		var nscore =  parseInt(localStorage.getItem('quiz_score')) + 1;
 		localStorage.setItem('quiz_score',nscore);
 	}
-	else {
-		console.log("so sorry... score remains the same");
-	}
-
 }
 
 function getScore(){

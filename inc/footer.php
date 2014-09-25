@@ -1,5 +1,5 @@
     <div class="footer">
-      <div class="container">
+      <div class="container text-center">
         <p class="text-muted">CC-BY, Kevin Deegan-Krause, <a href="mailto:kdecay@gmail.com">kdecay@gmail.com</a></p>
       </div>
     </div>
