@@ -1,8 +1,3 @@
-new_project_template
+Pop Song or Party
 ==============
 
-Vanilla template with some of my favs:
-- bootstrap
-- jquery cookie
-- jquery mustache
-- what else?
