@@ -120,6 +120,18 @@ code {
   text-align:center;
  }
 
+ .points {
+  font-size:200%;
+  font-weight:bold;
+ }
+
+ .points_images{
+    max-width:400px;
+    float:center;
+    margin:auto;
+    margin-bottom:30px;
+ }
+
 /* media queries */
 @media (min-width: 992px) { 
   .instructions_vert {    
@@ -164,6 +176,14 @@ code {
    .container .text-muted {
     margin: 10px 0;
   }
+
+   .points_images{
+  /*  max-width:400px;
+    float:center;
+    margin:auto;*/
+    margin-bottom:30px;
+ }
+ 
 }
 
 
