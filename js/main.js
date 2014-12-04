@@ -27,7 +27,7 @@ function showAns(choice,qnum){
 
 	// show answer
 	$("#quiz_canvas").hide();
-	$("#"+choice+"_ans").fadeIn(250);
+	$("#"+choice+"_ans").fadeIn(250,resizeContainer);
 
 	// check and store score
 	if (answers[qnum] == choice || answers[qnum] == "both"){		
@@ -50,7 +50,21 @@ $(document).ready(function(){
 	$(".navbar").click(function(){
 		resetScore();
 	})
+	// paints first time
+	paintFooter();
 })
+
+
+function paintFooter(){
+	var footer_html = ' <div class="footer"><div class="container text-center"><p class="text-muted">CC-BY, Kevin Deegan-Krause, <a href="mailto:kdecay@gmail.com">kdecay@gmail.com</a></p></div></div>';
+	$("#footer").empty();
+	$("#footer").html(footer_html);
+}
+
+// hack for mobile
+function resizeContainer(){
+	$("#main_container").css('height',($($(".results")[0]).height()+$($(".results")[1]).height()+200)+'px');
+}
 
 
 

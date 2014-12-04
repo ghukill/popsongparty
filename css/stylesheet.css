@@ -27,19 +27,18 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+  height:60px;
+  width: 100%;  
   background-color: #f5f5f5;
 }
-
 
 /* Custom page CSS
 -------------------------------------------------- */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 60px 15px;
 }
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -116,6 +115,11 @@ code {
   color:#6c6c6c;
  }
 
+ #nav_button {
+  margin-top:30px;
+  text-align:center;
+ }
+
 /* media queries */
 @media (min-width: 992px) { 
   .instructions_vert {    
@@ -144,16 +148,21 @@ code {
 
   #score_box {
     margin-top:45px;    
-    /*text-align:left;*/
   }
-
-
  }
 
  @media (max-width: 992px) { 
   .ans_text {    
     margin-top:20px;
     margin-bottom:20px;
+  }
+
+  #nav_button {
+    margin-top:15px;
+   }
+
+   .container .text-muted {
+    margin: 10px 0;
   }
 }
 
