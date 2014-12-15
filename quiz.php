@@ -1,5 +1,4 @@
-<?php 
-	include "inc/header.php" ;
+<?php 	
 	// quiz phrases
 	$q_phrases = Array(
 		"placeholder",		
@@ -57,11 +56,13 @@
 	if ($q_num > count($ans_text_array)) {
 		header( 'Location: ./finis.php' ) ;
 	}
+
+	// otherewise, continue
+	include "inc/header.php" ;
 ?>
 
     <!-- Begin page content -->
-    <div id="main_container" class="container">
-			      
+    <div id="main_container" class="container">			      
 
 	 	 <!-- quiz pane -->
 	 	 <div id="quiz_canvas">
