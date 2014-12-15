@@ -1,26 +1,7 @@
 <?php
-// quiz phrases
-	$q_phrases = Array(				
-		"The River",
-		"Party for Everybody",
-		"There is a Future",
-		"The Voice",
-		"Ordinary People",
-		"The Way of Courage",
-		"Rise Up",
-		"New Tomorrow",
-		"Something Better",
-		"Dawn",
-		"Change",
-		"We Can",
-		"I Believe",
-		"Bright Future"
-	);
-
-	// get q number
-	$q_num = $_GET['q'];
-
+	include "inc/phrases.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -72,8 +53,10 @@
               	<?php
               		$count = 1;
               		foreach ($q_phrases as $q){
-              			echo "<li><a href='./quiz.php?q=$count'>$q</a></li>";
-              			$count = $count + 1;
+              			if ($q != "placeholder"){
+              				echo "<li><a href='./quiz.php?q=$count'>$q</a></li>";
+              				$count = $count + 1;	
+              			}              			
               		}                	
             	?>
               </ul>
