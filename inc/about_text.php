@@ -1,14 +1,14 @@
 <!-- about text -->
 
 <div style="margin-top:20px;" class="row">
-  <div class="col-md-12" style="text-align:center;">  
+  <div class="col-md-12 text" style="text-align:center;">  
     <?php
     	$parts = explode("/",$_SERVER['REQUEST_URI']);
     	if (end($parts) == "about.php"){
-    		echo "<h2>About this Quiz:</h2>";
+    		echo "<p style='font-size:220%; font-weight:bold;'>About this Quiz:</p>";
     	}
 	?>
-    <h4>There are three points worth making, two of them frivolous, one serious.</h4>	
+    <p style='font-size:150%;'>There are three points worth making, two of them frivolous, one serious.</p>	
   </div>
 </div>
 
@@ -45,7 +45,7 @@
 
 <hr>
 
-<div style="margin-top:60px; margin-bottom:30px;" class="row">
+<div style="margin-top:30px; margin-bottom:30px;" class="row">
   <div class="col-md-12 text">                              
     <h4>Credits</h4>
 
@@ -53,8 +53,8 @@
     
     <p align="justify">Kevin Deegan-Krause is an Associate Professor of Political Science at Wayne State University, co-editor of the European Consortium for Political Research Political Data Yearbook, and occasional blogger at <a href="http://www.pozorblog.com">http://www.pozorblog.com</a>.  He is proud of his obsession with political parties and slightly embarrassed by his obsession with the Eurovision Song Contest.  Or is it the other way around?</p>
     <br>
-    <p><strong>Photo credits:</strong></p>
-    <p>Image of Aliona Moon, Eurovision contestant from Moldova in 2013, <a href="http://www.eurovision.tv/save-files/resizes/18/04/9b/ae/67/de/2c/7c/8f/43/b2/f6/f5/fc/5f/85/TH222_12.jpg">http://www.eurovision.tv/save-files/resizes/18/04/9b/ae/67/de/2c/7c/8f/43/b2/f6/f5/fc/5f/85/TH222_12.jpg</a></p>
- 	<p>Image of Giuseppe (Beppe) Grillo, founder of Italy’s Five Star Movement, <a href="http://static01.nyt.com/images/2014/05/24/world/24south1/24south1-master675.jpg">http://static01.nyt.com/images/2014/05/24/world/24south1/24south1-master675.jpg</a></p>
+    <p><strong>Photo Credits:</strong></p>
+    <p>Image of Aliona Moon, Eurovision contestant from Moldova in 2013, <a href="http://www.eurovision.tv/save-files/resizes/18/04/9b/ae/67/de/2c/7c/8f/43/b2/f6/f5/fc/5f/85/TH222_12.jpg">(image link)</a>
+ 	<br>Image of Giuseppe (Beppe) Grillo, founder of Italy’s Five Star Movement, <a href="http://static01.nyt.com/images/2014/05/24/world/24south1/24south1-master675.jpg">(image link)</a></p>
   </div>
 </div>
