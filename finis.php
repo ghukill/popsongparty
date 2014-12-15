@@ -11,7 +11,7 @@
             var score = getScore();
             $("#score").html(score);
           </script>
-          <h4>But before you go, there are three points worth making, two of them frivolous, one serious.</h4>
+          <h4>But before you go...</h4>
         </div>
 
       </div>  

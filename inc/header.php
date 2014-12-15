@@ -27,8 +27,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Sometimes it's hard these days to tell the difference between things that once seemed quite distinct. The designers of Ikea or Death recently identified an uncanny similarity between the names of flatpack furniture products and death metal bands. Now musical names have begun to creep into politics. Or is it the other way around?  In May of 2014, Europeans voted both for their favorite political parties and for their favorite pop songs, and the similarities are just too obvious to ignore. It is unlikely that anybody in 1979 would have confused 'the Christian Democratic Party of Italy' (the top European Parliament vote-getter) with 'Hallelujah' (the Eurovision-winning song). But this year we had 'We Can' and 'Change'. One of them is a song. One of them is a party. But which is which? And this is no isolated incident. Party names sound more like songs and songs sound more like parties.  If you don't believe it, try the following quiz: Party or Popsong?">
+    <meta name="author" content="Kevin Deegan-Krause">
     <link rel="icon" href="images/favicon.ico">
 
     <title>Party or Pop Song?</title>

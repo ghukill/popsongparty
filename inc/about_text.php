@@ -1,6 +1,20 @@
 <!-- about text -->
+
 <div style="margin-top:20px;" class="row">
-  <div class="col-md-12 text">  	
+  <div class="col-md-12" style="text-align:center;">  
+    <?php
+    	$parts = explode("/",$_SERVER['REQUEST_URI']);
+    	if (end($parts) == "about.php"){
+    		echo "<h2>About this Quiz:</h2>";
+    	}
+	?>
+    <h4>There are three points worth making, two of them frivolous, one serious.</h4>	
+  </div>
+</div>
+
+<div style="margin-top:20px;" class="row">
+  <div class="col-md-12 text">  
+
 
     <!-- images -->
     <div style="margin-top:30px;" class="row">
@@ -22,13 +36,14 @@
   </div>  
     
     <br>
-    <br>
     <p align="justify"><span class="points">Three:</span> Finally, the serious point (I know, Ikea or Death didn't preach at you, but frankly politics is a bit more important than pressboard lampstands)</p>
     <p align="justify">This isn't just about party and song names but about how our civic life is changing. Organizations in all walks of life seem less-rooted, more flexible, more apt to change. And boundaries -- between genres, between substance and self-promotion, between fiction and reality -- seem ever more porous. This may just be an illusion -- every generation in modernity sees itself as moving faster than its predecessors -- but there are good reasons to think that things are changing (See Clay Shirkey's, "<a href="http://www.theguardian.com/books/2008/mar/22/society1">Here Comes Everybody</a>", and Moises Naim's, "<a href="http://bit.ly/naim-review-lse">The End of Power</a>").  If so, the questions facing of citizens becomes much more critical and difficult. How do we decide between compromised experience and unsullied novelty? How do we hold politicians accountable if they themselves really don't expect to be around by the next election?</p>
-    <p>If you haven't stopped reading yet and are still interested, you can find more thoughts about the subject here: <a href="http://www.pozorblog.com/2014/07/perishable-goods/">http://www.pozorblog.com/2014/07/perishable-goods/</a>. See you in Vienna for Eurovision 2015.</p>
+    <p>If you haven't stopped reading yet and are still interested, you can find <a href="http://www.pozorblog.com/2014/07/perishable-goods/">more thoughts about the subject here</a>.  See you in Vienna for Eurovision 2015.</p>
   
   </div>
 </div>
+
+<hr>
 
 <div style="margin-top:60px; margin-bottom:30px;" class="row">
   <div class="col-md-12 text">                              
